@@ -1,0 +1,8 @@
+#ifndef ANGLES_INCLUDED
+#define ANGLES_INCLUDED
+
+double abs(double a);
+double* angles(double L1, double L2, double L3, double x, double y, double dZ)
+
+
+#endif // ANGLES_INCLUDED

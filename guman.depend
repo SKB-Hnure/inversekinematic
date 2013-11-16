@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1384443303 source:/media/Диск D/Study/ХНУРЭ/СКБ/guman/main.cpp
+	<iostream>
+	<math.h>
+
+1384533796 source:/home/diana/codeblocks/guman/main.cpp
+	<iostream>
+	<math.h>
+	<string.h>
+	<stdio.h>
+	<unistd.h>
+	<fcntl.h>
+	<errno.h>
+	<termios.h>
+
