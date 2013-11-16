@@ -84,6 +84,8 @@ str.append(to_string(n[i]));
 str.append("P");
 str.append(to_string(Q[i]));
 }
+
+
 const int d=700;
 str.append("T");
 str.append(to_string(d));
