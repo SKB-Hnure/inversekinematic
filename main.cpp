@@ -9,24 +9,14 @@
 #include <termios.h> /* Объявления управления POSIX-терминалом */
 using namespace std;
 #define Pi 3.1415
-double Qa, Qb, Qc, B, x, y, dZ, x02,y02,y2, L1,L2,L3;
-
-double abs(double a)
-{
-    if (a>=0) return a;
-    else return (-a);
-}
 string to_string(int val) {
  char buff[32];
  sprintf(buff,"%d",val);
  return string(buff);
 }
-
 int sends(char st[], int length)                                         //ОТКРЫТИЕ COM-ПОРТА
 {
   int fd; /* Файловый дескриптор для порта */
-
-
   fd = open("/dev/ttyUSB1", O_RDWR | O_NOCTTY | O_NDELAY);
   if (fd == -1)
   {
@@ -41,7 +31,7 @@ if (n < 0)
   return (fd);
 }
 int main ()
-{
+{ double L1, L2, L3, x,y,dZ;
     int n[3];
     for(int i=0;i<3;i++)
  {
@@ -84,8 +74,6 @@ str.append(to_string(n[i]));
 str.append("P");
 str.append(to_string(Q[i]));
 }
-
-
 const int d=700;
 str.append("T");
 str.append(to_string(d));

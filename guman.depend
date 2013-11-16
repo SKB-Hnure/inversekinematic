@@ -3,13 +3,16 @@
 	<iostream>
 	<math.h>
 
-1384533796 source:/home/diana/codeblocks/guman/main.cpp
+1384618290 source:/home/diana/codeblocks/guman/main.cpp
 	<iostream>
 	<math.h>
 	<string.h>
 	<stdio.h>
+	"three_angles.h"
 	<unistd.h>
 	<fcntl.h>
 	<errno.h>
 	<termios.h>
+
+1384617640 /home/diana/codeblocks/guman/three_angles.h
 
