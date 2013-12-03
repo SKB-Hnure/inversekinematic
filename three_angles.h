@@ -18,7 +18,19 @@ double* angles(double L1, double L2, double L3, double x, double y, double dZ)
    */
 { double B,y2;
     double *Q = new double[3];
+    if ((x>0)&&(y>=0))
 Q[0]=atan(y/x);
+else
+ {
+if (x==0)
+Q[0]=Pi/2;
+if ((x<0)&&(y>=0))
+Q[0]=Pi-atan(y/x);
+if ((x<0)&&(y<=0))
+Q[0]=atan(y/x)-Pi;
+if ((x>0)&&(y<0))
+Q[0]=atan(y/x);
+}
   y2=sqrt(pow(x,2)+pow(y,2))-L1;
  B=sqrt(dZ*dZ+pow(y2,2));
  if (y2>0)

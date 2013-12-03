@@ -16,3 +16,16 @@
 
 1384617640 /home/diana/codeblocks/guman/three_angles.h
 
+1386006156 source:/home/diana/Programms/codeblocks/guman/main.cpp
+	<iostream>
+	<math.h>
+	<string.h>
+	<stdio.h>
+	"three_angles.h"
+	<unistd.h>
+	<fcntl.h>
+	<errno.h>
+	<termios.h>
+
+1385835617 /home/diana/Programms/codeblocks/guman/three_angles.h
+

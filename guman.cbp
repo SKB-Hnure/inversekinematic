@@ -32,9 +32,6 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="angles">
-			<Option target="Debug" />
-		</Unit>
 		<Unit filename="main.cpp" />
 		<Unit filename="three_angles.h">
 			<Option target="Debug" />
